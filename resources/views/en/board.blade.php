@@ -250,6 +250,7 @@ let config = {
   onMouseoutSquare: onMouseoutSquare,
   onMouseoverSquare: onMouseoverSquare,
   onSnapEnd: onSnapEnd,
+  onMoveEnd: onMoveEnd,
   showNotation: true
   //pieceTheme: '/static/img/xiangqipieces/traditional/{piece}.svg'
 };

@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lumen/bootstrap.min.css" integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="{{ URL::to('/') }}/css/index.css?v=38" rel="stylesheet">
+<link href="{{ URL::to('/') }}/css/index.css?v=39" rel="stylesheet">
 <link rel="manifest" href="{{ URL::to('/') }}/manifest.webmanifest?v=1">
 <link rel="canonical" href="{{ url()->full() }}" />
 <script data-ad-client="ca-pub-3585118770961536" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

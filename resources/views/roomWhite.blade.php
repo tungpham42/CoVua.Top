@@ -54,7 +54,7 @@ var game = new Chess()
 var currentFEN = game.fen()
 
 var promoting = false;
-var piece_theme = $('#piecesUrl').val() + '/img/chesspieces/wikipedia/{piece}.png';
+var piece_theme = $('#piecesUrl').val() + '/img/chesspieces/alpha/{piece}.png';
 var promotion_dialog = $('#promotion-dialog');
 var promote_to = '';
 var whiteSquareGrey = '#a9a9a9'

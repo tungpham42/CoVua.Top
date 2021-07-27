@@ -13,7 +13,7 @@ let $board = $('#chess-board');
 let game = new Chess();
 
 var promoting = false;
-var piece_theme = $('#piecesUrl').val() + '/img/chesspieces/wikipedia/{piece}.png';
+var piece_theme = $('#piecesUrl').val() + '/img/chesspieces/alpha/{piece}.png';
 var promotion_dialog = $('#promotion-dialog');
 var promote_to = '';
 var squareClass = 'square-55d63'

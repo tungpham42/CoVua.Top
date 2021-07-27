@@ -4,6 +4,9 @@
 @endsection
 @section('belowContent')
 <p class="w-100 text-center mt-4">
+  <a id="switch" class="w-25 btn btn-dark btn-lg"><i class="fad fa-chess-board"></i> Switch side</a>
+</p>
+<p class="w-100 text-center mt-4">
   <a id="new-board" class="w-25 btn btn-warning btn-lg"><i class="fad fa-save"></i> Save board</a>
   <a id="undo" class="w-25 btn btn-danger btn-lg"><i class="fad fa-redo-alt"></i> Undo</a>
 </p>
@@ -56,6 +59,7 @@ const board = Chessboard('chess-board', {
   showNotation: true,
   onSnapEnd: onSnapEnd
 });
+$('#switch').on('click', board.flip);
 $('#new-board').on('click', function(){
   window.location.href = "{{ URL::to('/set-up/') }}/" + board.fen();
 });

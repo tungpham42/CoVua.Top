@@ -9,7 +9,7 @@
 <script src="{{ URL::to('/') }}/js/detect_adblock.js"></script>
 <script src="{{ URL::to('/') }}/js/scripts.js"></script>
 <script src="{{ URL::to('/') }}/js/manipulation.js"></script>
-<script src="{{ URL::to('/') }}/js/chessboard.js?v=8"></script>
+<script src="{{ URL::to('/') }}/js/chessboard.js?v=10"></script>
 <script src="{{ URL::to('/') }}/js/chess.js?v=3"></script>
 <script>
 $.ajaxSetup({
